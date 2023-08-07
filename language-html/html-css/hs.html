@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <link rel="stylesheet" href="../loading.css">
+    <link rel="shortcut icon" href="../logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css">
+    <link rel="stylesheet" href="../code.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div> 
+    <header>
+        <div class="container">
+            <h1 class="title-heider">HTML and CSS</h1>
+        </div>
+    </header>   
+    <section>
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                    <div class="poster"><img src="./img/hotel.png" alt="hotel"></div>
+                    <div class="details">
+                        <h2>Hotel</h2>          
+                        <p class="desc">
+                            This website represents a luxurious and contemporary virtual retreat for hotel guests. Advanced web development technologies, such as HTML, CSS, and JavaScript, were utilized during its creation, ensuring high performance and responsiveness of the site.
+                        </p>
+                        <a href="https://danildeveloper01.github.io/hotel/home.html" target="_blank">TO THE WEBSITE</a>
+                        <a href="https://github.com/danildeveloper01/hotel" target="_blank">CODE</a>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="./img/neuro.png" alt="neuro"></div>
+                    <div class="details">
+                        <h2>Neuro</h2>          
+                        <p class="desc">
+                            This unique template is a perfect showcase of modern design. The development of this template incorporates cutting-edge web technologies such as HTML, CSS, and JavaScript, ensuring outstanding performance and responsiveness across all devices.
+                        </p>
+                        <a href="https://danildeveloper01.github.io/neur/" target="_blank">TO THE WEBSITE</a>
+                        <a href="https://github.com/danildeveloper01/neur" target="_blank">CODE</a>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="poster"><img src="./img/Generator.png" alt="Generator"></div>
+                    <div class="details">
+                        <h2>Password generator</h2>          
+                        <p class="desc">
+                            Welcome to the incredible world of security with this innovative password generator! This powerful tool is designed using HTML, CSS, JS, and Ajax technologies to provide the highest level of protection for your valuable data.
+                        </p>
+                        <a href=" https://danildeveloper01.github.io/generator/" target="_blank">TO THE WEBSITE</a>
+                        <a href="https://github.com/danildeveloper01/generator" target="_blank">CODE</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <h3 class="title-footer">CONTACTS</h3>
+            <div class="text-footer">
+                <a href="https://t.me/front_end_developer19" target="_blank" class="underline-one">Telegram</a>
+                <a href="https://www.linkedin.com/in/danil-nezameev-844b5b277/" target="_blank" class="underline-one">Linkedin</a>
+                <a href="https://github.com/danildeveloper01" target="_blank" class="underline-one">Git</a>
+                <a href="mailto:danildeveloper01@gmail.com" target="_blank" class="underline-one">danildeveloper01@gmail.com</a>
+                <a href="tel:+421905174713" target="_blank" class="underline-one">+421915424520</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+      </script>
+</body>
+</html>

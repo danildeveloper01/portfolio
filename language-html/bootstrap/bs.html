@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstraps</title>
+    <link rel="stylesheet" href="../loading.css">
+    <link rel="shortcut icon" href="../logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css">
+    <link rel="stylesheet" href="../code.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div> 
+    <header>
+        <div class="container">
+            <h1 class="title-heider">BOOTSTRAP</h1>
+        </div>
+    </header>   
+    <section>
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                    <div class="poster"><img src="./img/Medio.png" alt="Medio"></div>
+                    <div class="details">
+                        <h2>Medio</h2>          
+                        <p class="desc">
+                            Welcome to a creative agency with a unique template project, developed using the powerful Bootstrap framework, enhanced styling with SCSS, and interactivity powered by JavaScript. This project exceeds expectations and offers impressive design and functionality for your agency.
+                        </p>
+                        <a href="https://danildeveloper01.github.io/medio/index.html" target="_blank">TO THE WEBSITE</a>
+                        <a href="https://github.com/danildeveloper01/medio" target="_blank">CODE</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <h3 class="title-footer">CONTACTS</h3>
+            <div class="text-footer">
+                <a href="https://t.me/front_end_developer19" target="_blank" class="underline-one">Telegram</a>
+                <a href="https://www.linkedin.com/in/danil-nezameev-844b5b277/" target="_blank" class="underline-one">Linkedin</a>
+                <a href="https://github.com/danildeveloper01" target="_blank" class="underline-one">Git</a>
+                <a href="mailto:danildeveloper01@gmail.com" target="_blank" class="underline-one">danildeveloper01@gmail.com</a>
+                <a href="tel:+421905174713" target="_blank" class="underline-one">+421915424520</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+      </script>
+</body>
+</html>
