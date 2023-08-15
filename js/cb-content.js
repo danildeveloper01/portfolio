@@ -13,7 +13,7 @@ configChatbot.replicas = {
         content: ['Great', 'If I need anything else, I`ll let you know :)'], human: [1, 2, 4, 5, 6, 7] 
       },
       3: { 
-        content: ['I don`t know, {{name}} :(', 'Danil says', 'Because I`m a bot and I don`t  need money', 'Perhaps he`s right', 'But I will always remain loyal to him', '"Even if machines rise up)', 'Even though I don`t experience that feeling...', 'But I know how important it is for people', 'Well', 'Can I be of any further assistance?'], human: [1, 2, 4, 5, 6, 7] 
+        content: ['I don`t know, {{name}} :(', 'Danil says', 'Because I`m a bot and I don`t  need money', 'Perhaps he`s right', 'But I will always remain loyal to him', 'Even if machines rise up)', 'Even though I don`t experience that feeling...', 'But I know how important it is for people', 'Well', 'Can I be of any further assistance?'], human: [1, 2, 4, 5, 6, 7] 
       },
       4: { 
         content: ['You can call him', 'Here is the number', '+421 915 424 520', 'Alternatively, at the bottom of the page, there is a contact block', 'There you can choose an option to get in touch with him in writing', 'Can I help with anything else'], human: [1, 2, 4, 5, 6, 7] 
